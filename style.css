@@ -1,0 +1,91 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f1ee;
+  color: #3b2910;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #e4d1b9;
+  padding: 2rem 1rem 1rem 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  color: #7b5e2e;
+}
+
+header p {
+  margin: 0.5rem 0 0 0;
+  color: #7b5e2e;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 2rem;
+}
+
+.product-card {
+  background: #e9e3d1;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #bba98333;
+  width: 240px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: translateY(-4px) scale(1.03);
+}
+
+.product-card img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  background: #cec0a2;
+}
+
+.product-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #5f4321;
+  margin: 0.6rem 0 0.2rem 0;
+}
+
+.product-price {
+  color: #937c5a;
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-link {
+  display: inline-block;
+  background: #bca26a;
+  color: #fff;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+.product-link:hover {
+  background: #7b5e2e;
+}
+
+footer {
+  background: #e4d1b9;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.95rem;
+  color: #6d5730;
+  margin-top: 2rem;
+}
