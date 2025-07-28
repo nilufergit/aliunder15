@@ -6,6 +6,24 @@ const products = [
     image: "images/wavlatii.jpg",
     url: "https://s.click.aliexpress.com/e/_ooKA25D"
   },
+   {
+    title: "Attack on Titan overseized high quality T-Shirt",
+    price: "$12.60",
+    image: "images/attack.jpg",
+    url: " https://s.click.aliexpress.com/e/_oBttykP"
+  },
+  {
+    title: "Attack on Titan overseized high quality T-Shirt",
+    price: "$12.60",
+    image: "images/attack1.jpg",
+    url: " https://s.click.aliexpress.com/e/_oBttykP"
+  },
+  {
+    title: "Attack on Titan overseized high quality T-Shirt",
+    price: "$12.60",
+    image: "images/attack2.jpg",
+    url: " https://s.click.aliexpress.com/e/_oBttykP"
+  },
   {
     title: "T Shirt Pullover Oversize Korean version Cartoon Cat ",
     price: "$8.57",
