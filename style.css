@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
   background: #f4f1ee;
@@ -33,7 +34,7 @@ header p {
 
 .product-card {
   background: #e9e3d1;
-  border-radius: 10 px;
+  border-radius: 10 px; 
   box-shadow: 0 2 px 8 px #bba98333;
   width: 240 px;
   padding: 1 rem;
@@ -52,6 +53,7 @@ header p {
   border-radius: 8 px;
   background: #cec0a2;
 }
+
 .product-title {
   font-size: 1 rem;
   font-weight: bold;
@@ -83,7 +85,7 @@ header p {
 footer {
   background: #e4d1b9;
   text-align: center;
-  padding: 1 rem;
+  padding:  1 rem;
   font-size: 0.95 rem;
   color: #6d5730;
   margin-top: 2 rem;
