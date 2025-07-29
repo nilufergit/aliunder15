@@ -1,25 +1,25 @@
 // Sample product data (replace with real affiliate links or API data if available)
 const products = [
   {
-    title: "WAVLATII Oversized Summer T shirts  – men and women",
+    title: "WAVLATII Oversized Summer T-shirts  – men and women",
     price: "$12.32",
     image: "images/wavlatii.jpg",
     url: "https://s.click.aliexpress.com/e/_ooKA25D"
   },
    {
-    title: "Attack on Titan overseized high quality T-Shirt",
+    title: "Attack on Titan oversized high quality T-Shirt",
     price: "$12.60",
     image: "images/attack.jpg",
     url: " https://s.click.aliexpress.com/e/_oBttykP"
   },
   {
-    title: "Attack on Titan overseized high quality T-Shirt",
+    title: "Attack on Titan oversized high quality T-Shirt",
     price: "$12.60",
     image: "images/attack1.jpg",
     url: " https://s.click.aliexpress.com/e/_oBttykP"
   },
   {
-    title: "Attack on Titan overseized high quality T-Shirt",
+    title: "Attack on Titan oversized high quality T-Shirt",
     price: "$12.60",
     image: "images/attack2.jpg",
     url: " https://s.click.aliexpress.com/e/_oBttykP"
@@ -37,13 +37,13 @@ const products = [
     url: "https://s.click.aliexpress.com/e/_oka2uNp"
   },
   {
-    title: "MINISO Naruto T Shirt",
+    title: "MINISO Naruto T-Shirt",
     price: "$9.28",
     image: "images/naruto.jpg",
     url: "https://s.click.aliexpress.com/e/_oEFOFuL"
   },
   {
-    title: " Cat t shirt female harajuku",
+    title: " Cat T-shirt female harajuku",
     price: "$8.14",
     image: "images/cat.jpg",
     url: "https://s.click.aliexpress.com/e/_okEkWcX"
@@ -55,7 +55,7 @@ const products = [
     url: "https://s.click.aliexpress.com/e/_oEfTukX"
   },
   {
-    title: " Cat t shirt female harajuku",
+    title: " Cat T-shirt female harajuku",
     price: "$8.14",
     image: "images/boom.jpg",
     url: "https://s.click.aliexpress.com/e/_okEkWcX"
@@ -86,19 +86,19 @@ const products = [
     url: "https://s.click.aliexpress.com/e/_okbGrcP"
   },
  {
-    title: "Anime Jujutsu Kaisen Gojo Satoru T Shirts Washed cotton",
+    title: "Anime Jujutsu Kaisen Gojo Satoru T-Shirts Washed cotton",
     price: "$15.95",
     image: "images/jujutsuj.jpg",
     url: "https://s.click.aliexpress.com/e/_oC1lzbz"
   },
   {
-    title: "Anime Jujutsu Kaisen Gojo Satoru T Shirts Washed cotton",
+    title: "Anime Jujutsu Kaisen Gojo Satoru T-Shirts Washed cotton",
     price: "$15.95",
     image: "images/jujutsu.jpg",
     url: "https://s.click.aliexpress.com/e/_oC1lzbz"
   },
   {
-    title: "Anime Jujutsu Kaisen Gojo Satoru T Shirts Washed cotton",
+    title: "Anime Jujutsu Kaisen Gojo Satoru T-Shirts Washed cotton",
     price: "$15.95",
     image: "images/jujutsu1.jpg",
     url: "https://s.click.aliexpress.com/e/_oC1lzbz"
