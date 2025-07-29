@@ -12,8 +12,3 @@ window.addEventListener('DOMContentLoaded', () => {
     list.appendChild(card);
   });
 });
-      `;
-    }
-    list.appendChild(card);
-  });
-});
