@@ -60,24 +60,16 @@ const products = [
     image: "images/boom.jpg",
     url: "https://s.click.aliexpress.com/e/_okEkWcX"
   },
-  {
-    title: " Summer Loose American Retro Trendy Cat Cotton T-shirt",
-    price: "$13.85",
-    image: "images/cofeecat.jpg",
-    url: "https://s.click.aliexpress.com/e/_op4Uux9"
-  },
-  {
-    title: " Summer Loose American Retro Trendy Cat Cotton T-shirt",
-    price: "$13.85",
-    image: "images/cofeecat1.jpg",
-    url: "https://s.click.aliexpress.com/e/_op4Uux9"
-  },
-  {
-    title: " Summer Loose American Retro Trendy Cat Cotton T-shirt",
-    price: "$13.85",
-    image: "images/cofeecat2.jpg",
-    url: "https://s.click.aliexpress.com/e/_op4Uux9"
-  },
+ {
+  title: "Summer Loose American Retro Trendy Cat Cotton T-shirt",
+  price: "$13.85",
+  images: [
+    "images/cofeecat.jpg",
+    "images/cofeecat1.jpg",
+    "images/cofeecat2.jpg"
+  ],
+  url: "https://s.click.aliexpress.com/e/_op4Uux9"
+}
    {
     title: " Casual beach Cotton Linen Shirt Men Henley Neck ",
     price: "$12.39",
