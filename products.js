@@ -69,7 +69,7 @@ const products = [
     "images/cofeecat2.jpg"
   ],
   url: "https://s.click.aliexpress.com/e/_op4Uux9"
-}
+},
    {
     title: " Casual beach Cotton Linen Shirt Men Henley Neck ",
     price: "$12.39",
