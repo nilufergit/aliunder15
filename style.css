@@ -52,54 +52,6 @@ header p {
   border-radius: 8 px;
   background: #cec0a2;
 }
-.image-slider {
-  position: relative;
-  width: 140 px;
-  height: 140 px;
-  margin: 0 auto 1 rem auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.image-slider img {
-  width: 100 %;
-  height: 100 %;
-  object-fit: cover;
-  border-radius: 8 px;
-  background: #cec0a2;
-}
-
-.image-slider button {
-  position: absolute;
-  top: 50 %;
-  transform: translateY (-50 %);
-  background: #bca26a;
-  border: none;
-  border-radius: 50 %;
-  color: #fff;
-  width: 28 px;
-  height: 28 px;
-  font-size: 1.2 rem;
-  cursor: pointer;
-  opacity: 0.8;
-  z-index: 2;
-  transition: background 0.15 s, opacity 0.15 s;
-}
-
-.image-slider button:hover {
-  background: #7b5e2e;
-  opacity: 1;
-}
-
-.image-slider .prev-btn {
-  left: -16 px;
-}
-
-.image-slider .next-btn {
-  right: -16 px;
-}
-
 .product-title {
   font-size: 1 rem;
   font-weight: bold;
