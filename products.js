@@ -70,7 +70,7 @@ const products = [
      {
     title: " Summer Loose American Retro Trendy Cat Cotton T-shirt ",
     price: "$13.85",
-    image: "images/cofeecat1",
+    image: "images/cofeecat2",
     url: "https://s.click.aliexpress.com/e/_op4Uux9"
   },
   
