@@ -8,20 +8,41 @@ body {
 
 header {
   background: #e4d1b9;
-  padding: 2rem 1rem 1rem 1rem;
-  text-align: center;
+  padding: 1rem 3rem; /* top/bottom = 1rem, left/right = 2rem */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-header h1 {
+.header-left h1 {
   margin: 0;
   font-size: 2.2rem;
   color: #7b5e2e;
 }
 
-header p {
-  margin: 0.5rem 0 0 0;
+.header-left p {
+  margin: 0.3rem 0 0 0;
   color: #7b5e2e;
 }
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* consistent space between filter and search */
+}
+
+.header-right #search-bar {
+  width: 250px;
+  padding: 0.5rem;
+  border: 2px solid #bca26a;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+#search-bar:focus {
+  outline: 2px solid #7b5e2e; /* Brown outline */
+  border-color: #7b5e2e;      /* Also change border to brown */
+}
+
+
 
 .products {
   display: flex;
@@ -81,6 +102,70 @@ header p {
   background: #7b5e2e;
 }
 
+
+/* Category dropdown */
+#category-filter {
+  padding: 0.5rem 0.75rem;
+  border: 2px solid #bca26a;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #fff;
+  color: #333;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+}
+#category-filter:hover {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-color: #a88f57; /* slightly darker gold on hover */
+}
+
+#search-bar:focus {
+  border-color: #a88f57;
+  box-shadow: 0 2px 6px rgba(184, 153, 87, 0.3);
+}
+.carousel {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.carousel img {
+  display: none;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.carousel img.active {
+  display: block;
+}
+
+.carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(139, 69, 19, 0.7); /* Brown tone */
+  border: none;
+  color: white;
+  font-size: 1.5em;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.carousel .prev {
+  left: 10px;
+}
+
+.carousel .next {
+  right: 10px;
+}
+
+.carousel button:hover {
+  background: rgba(101, 50, 14, 0.9);
+}
+
+
 footer {
   background: #e4d1b9;
   text-align: center;
@@ -89,3 +174,6 @@ footer {
   color: #6d5730;
   margin-top: 2rem;
 }
+
+
+
