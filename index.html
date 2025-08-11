@@ -7,7 +7,7 @@
   <meta name="description" content="Discover the best AliExpress products under $15, curated for you. Find amazing deals on unique items with Earthy Finds!">
   <meta name="google-site-verification" content="JzzW4zMmwe82zSdYR8-Fs95EEE-ZdiFFae3R4DxU39k" />
  <script type="application/ld+json">
-{
+  {
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Earthy Finds: Under $15 on AliExpress",
@@ -26,9 +26,23 @@
 </head>
 <body>
   <header>
+  <div class="header-left">
     <h1>Earthy Finds</h1>
-    <p>Curated AliExpress products  – all under $20</p>
-  </header>
+    <p>Curated AliExpress products – all under $20</p>
+  </div>
+  <div class="header-right">
+  <select id="category-filter">
+    <option value="all">All Categories</option>
+    <option value="Anime">Anime</option>
+    <option value="Cats">Cats</option>
+    <option value="Summer">Summer</option>
+    <option value="Other">Other </option>
+  </select>
+  <input type="text" id="search-bar" placeholder="Search...">
+</div>
+
+</header>
+
   <main>
     <section class="products" id="product-list">
       <!-- Products will be inserted here -->
@@ -54,3 +68,4 @@
   <script src="main.js"></script>
 </body>
 </html>
+
