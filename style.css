@@ -24,6 +24,14 @@ header {
   margin: 0.3rem 0 0 0;
   color: #7b5e2e;
 }
+.logo {
+  text-decoration: none;
+  color: inherit; /* keeps the #7b5e2e color from h1 */
+}
+
+.logo:hover {
+  opacity: 0.8; /* optional: subtle hover effect */
+}
 .header-right {
   display: flex;
   align-items: center;
@@ -41,16 +49,6 @@ header {
   outline: 2px solid #7b5e2e; /* Brown outline */
   border-color: #7b5e2e;      /* Also change border to brown */
 }
-.logo {
-  text-decoration: none;
-  color: inherit; /* keeps the #7b5e2e color from h1 */
-}
-
-.logo:hover {
-  opacity: 0.8; /* optional: subtle hover effect */
-}
-
-
 
 .products {
   display: flex;
@@ -182,6 +180,7 @@ footer {
   color: #6d5730;
   margin-top: 2rem;
 }
+
 
 
 
