@@ -39,7 +39,8 @@ header {
 }
 
 .header-right #search-bar {
-  width: 250px;
+  width: 100%;
+  max-width: 100%;
   padding: 0.5rem;
   border: 2px solid #bca26a;
   border-radius: 6px;
@@ -196,6 +197,7 @@ footer {
   color: #6d5730;
   margin-top: 2rem;
 }
+
 
 
 
