@@ -49,6 +49,22 @@ header {
   outline: 2px solid #7b5e2e; /* Brown outline */
   border-color: #7b5e2e;      /* Also change border to brown */
 }
+/* MOBILE FIX */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;       /* stack left and right sections */
+    align-items: flex-start;
+  }
+
+  .header-right {
+    width: 100%;                  /* full width container */
+    justify-content: flex-start;
+  }
+
+  .header-right #search-bar {
+    max-width: 100%;               /* stretch to screen */
+  }
+}
 
 .products {
   display: flex;
@@ -180,6 +196,7 @@ footer {
   color: #6d5730;
   margin-top: 2rem;
 }
+
 
 
 
